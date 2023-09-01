@@ -3,17 +3,29 @@ import Layout from "../../layouts/Layout.astro";
 const allPosts = await Astro.glob("./*.md");
 ---
 
-<Layout>
-  <div class="my-5">
-    <div class="text-4xl font-black">all posts</div>
-    <div class="space-y-3 my-2">
-      {
-        allPosts.map((post) => (
-          <a href={post.url} class="text-xl underline">
-            {post.frontmatter.title}
-          </a>
-        ))
-      }
-    </div>
-  </div>
-</Layout>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="All posts by Josh Keller" />
+    <meta name="generator" content={Astro.generator} />
+    <title>All Posts</title>
+  </head>
+  <body>
+    <Layout>
+      <div class="my-5">
+        <div class="text-4xl font-black">all posts</div>
+        <div class="space-y-3 my-2">
+          {
+            allPosts.map((post) => (
+              <a href={post.url} class="text-xl underline">
+                {post.frontmatter.title}
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </Layout>
+  </body>
+</html>
