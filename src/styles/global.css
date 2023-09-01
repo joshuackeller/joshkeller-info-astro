@@ -1,0 +1,10 @@
+.header {
+    text-shadow: 2px 2px #E10438;
+    color: #EFC60B;
+    background-color: #53776B;
+}
+.header-sm {
+    text-shadow: 1px 1px #E10438;
+    color: #EFC60B;
+    background-color: #53776B;
+}

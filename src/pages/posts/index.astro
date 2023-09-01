@@ -1,0 +1,19 @@
+---
+import Layout from "../../layouts/Layout.astro";
+const allPosts = await Astro.glob("./*.md");
+---
+
+<Layout>
+  <div class="my-5">
+    <div class="text-4xl font-black">all posts</div>
+    <div class="space-y-3 my-2">
+      {
+        allPosts.map((post) => (
+          <a href={post.url} class="text-xl underline">
+            {post.frontmatter.title}
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</Layout>
