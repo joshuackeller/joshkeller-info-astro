@@ -7,7 +7,7 @@ description: Reference for all the different technology used for capstone.
 # Tech Stack
 
 ## Styles
-[Tailwind CSS](https://tailwindcss.com/) - used instead of plain css
+[Tailwind CSS](https://tailwindcss.com/) - used instead of raw css
 
 ## Frontend
 [React](https://react.dev/)
