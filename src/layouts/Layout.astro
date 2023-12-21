@@ -1,11 +1,13 @@
 ---
-import "../styles/global.css"
+import "../styles/global.css";
 ---
 
 <div class="max-w-4xl mx-auto px-5 py-2">
   <div class="flex justify-between items-center py-2">
-  <a href="/" class="font-black px-2 py-1 header-sm">josh keller</a>
-  <a href="/posts" class="underline">all posts</a>
+    <a href="/posts" class="font-black px-2 py-1 header-sm !no-underline"
+      >josh keller</a
+    >
+    <!-- <a href="/posts" class="underline">all posts</a> -->
   </div>
   <slot />
 </div>
