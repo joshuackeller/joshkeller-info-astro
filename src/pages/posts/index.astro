@@ -20,7 +20,7 @@ const allPosts = await Astro.glob("./*.md");
           {
             allPosts.map((post) => (
               <div>
-                <a href={post.url} class="text-lg underline">
+                <a href={post.url} class="underline">
                   {post.frontmatter.title}
                 </a>
               </div>
