@@ -9,6 +9,8 @@ description: Reference for all the different technology used for capstone.
 ## Styles
 [Tailwind CSS](https://tailwindcss.com/) - used instead of raw css
 
+[shadcn](https://ui.shadcn.com/) - component library
+
 ## Frontend
 [React](https://react.dev/)
 
@@ -23,3 +25,5 @@ description: Reference for all the different technology used for capstone.
 
 [Supabase](https://supabase.com/) - managed postgres
 
+## Other
+[Zod](https://zod.dev/) - validation on frontend and backend
