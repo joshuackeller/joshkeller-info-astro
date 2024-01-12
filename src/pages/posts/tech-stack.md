@@ -19,11 +19,15 @@ description: Reference for all the different technology used for capstone.
 [Tanstack Query](https://tanstack.com/query/v5/docs/react/overview) - used for front end caching and state management
 
 ## Backend
-[Hono](https://hono.dev/) - backend API framework
+[Express](https://expressjs.com/) - backend API framework
 
 [Prisma](https://www.prisma.io/) - database ORM
 
 [Supabase](https://supabase.com/) - managed postgres
 
+[Upstash](https://upstash.com/) - using their serverless Redis to make authentication faster
+
 ## Other
 [Zod](https://zod.dev/) - validation on frontend and backend
+
+[JWT](https://jwt.io/) - used for authentication
