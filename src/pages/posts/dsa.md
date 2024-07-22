@@ -19,5 +19,5 @@ description: Making a dictionary to help me learn DSA better
   - Gets min/max in `O(1)` time
 - **Useful situations**
   - When you need to know the min/max in an array while continually adding items to that array
-  - When you only need the first x smallest/largest terms in an array
+  - When you only need the first x smallest/largest terms in an array OR the xth smallest term in an aray
     - Takes complexity from `n*log(n)` (sorting) to `x*log(n)`
