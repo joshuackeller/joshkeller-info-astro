@@ -37,7 +37,7 @@ img {
 }
 
 code {
-    @apply bg-blue-100 p-[2px] border border-blue-800 rounded-sm !text-sm; 
+    @apply bg-indigo-50 px-[2px] py-[1px] border border-indigo-300 rounded !text-sm text-indigo-800; 
 }
 
 /* body {

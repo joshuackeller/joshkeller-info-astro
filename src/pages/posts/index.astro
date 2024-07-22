@@ -15,7 +15,7 @@ const allPosts = await Astro.glob("./*.md");
   <body>
     <Layout>
       <div class="my-5">
-        <div class="text-3xl font-bold">Capstone Details</div>
+        <div class="text-3xl font-bold">Posts</div>
         <div class="space-y-2 my-2">
           {
             allPosts.map((post) => (
