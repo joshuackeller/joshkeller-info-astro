@@ -43,6 +43,31 @@ description: Making a dictionary to help me learn DSA better
  - Remove `O(1)`
  - Search `O(1)`
  - **Useful situations**
- - Finding items quickly
+ - Finding items **quickly**
  - **Downsides**
  - Not sorted
+
+## Graphs
+- Made up of Edges and Vertices
+    - `e <= v^2`
+- Directed vs Undirected
+  - Directed - edges go one way
+  - Undirected - edges go both ways
+- **3 Types**
+    1. Matrix (Grid)
+       - Undirected edges
+    2. Adjacency Matrix
+       - Not common
+       - Represented as a grid
+       - 0/1 at a value [x,y] means there is/is not a path between vertex x and vertex y
+        - 0 = no path, 1 = path
+        - Directed
+    3. Adjacency List
+       - Vertex has value and neighbors
+       - Neighbors are vertices that a vertex connects to (does not include vertices that connect to it)
+       - Directed
+
+## Matrix DFS
+- Depth First Search for a grid
+- **Time Complexity Properties**
+  - `O(4^nm)` or `O(8^nm)` (if diagonal movements are allowed)
