@@ -71,3 +71,14 @@ description: Making a dictionary to help me learn DSA better
 - Depth First Search for a grid
 - **Time Complexity Properties**
   - `O(4^nm)` or `O(8^nm)` (if diagonal movements are allowed)
+- **Useful Situations**
+  - Count number of unique paths in matrix
+  - Count islands
+
+## Matrix BFS
+- Breadth First Search for a grid
+- Way faster than DFS
+- **Time Complexity Properties**
+  - `O(nm)`
+- **Useful Situations**
+  - Shortest path in matrix
